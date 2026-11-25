@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.private/
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build outputs
+dist/
+build/
+.next/
+coverage/
+*.log
+
+# Local tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
