@@ -5,7 +5,7 @@ Install the Specify CLI and initialize this existing repository for Codex:
 
 ```bash
 uv tool install specify-cli
-specify init --here --integration codex
+specify init --here --force --integration codex
 ```
 
 Review generated files before committing. Avoid `--force` unless a reviewable baseline exists; it may replace managed paths.
