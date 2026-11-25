@@ -21,10 +21,10 @@ This repository adopts [GitHub Spec Kit](https://github.com/github/spec-kit). In
 
 ```bash
 uv tool install specify-cli
-specify init --here --integration codex
+specify init --here --force --integration codex
 ```
 
-Review generated files before committing. The project constitution is maintained at `.specify/memory/constitution.md`.
+This repository already has a committed baseline. `--force` is required because the directory is non-empty and may replace managed paths; inspect the complete diff and preserve the agreed constitution before committing. The project constitution is maintained at `.specify/memory/constitution.md`.
 
 ## Language policy
 
