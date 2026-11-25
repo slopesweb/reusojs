@@ -7,6 +7,8 @@ A Directus-first, multi-tenant headless CMS foundation. The first proof of conce
 ## Project documentation
 
 - [Project context](PROJECT_CONTEXT.md)
+- [First feature specification](specs/001-multitenant-cms-foundation/spec.md)
+- [Clarification register](specs/001-multitenant-cms-foundation/clarifications.md)
 - [Architecture](docs/architecture/README.md)
 - [Domain model](docs/architecture/domain-model.md)
 - [Architecture decisions](docs/adr/README.md)
